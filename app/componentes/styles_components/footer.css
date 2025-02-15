@@ -26,13 +26,17 @@ footer{
 /* MOBILE VERSION */
 @media only screen and (max-width: 900px){
     footer{
-        height: 8vh;
-        margin-left: 80px;
+        height: auto;
+        margin-left: 70px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .copyrigth{
         font-size: 1rem;
     }
     .social-ico{
-        margin-top: 20px;
+        margin-top: 15px;
+        width: 16px;
+        height: 16px;
     }
 }

@@ -1,247 +1,256 @@
-.about-container{
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-              url("/about_img.jpeg");
+.about-container {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/about_img.jpeg");
 }
-.about{
-    width: 48%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.about {
+  width: 48%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.about h1{
-    font-size: 2.5rem;
-    margin-bottom: 25px;
-    font-family: sans-serif;
-    font-weight: lighter;
+.about h1 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
-.about p{
-    font-size: 1.2rem;
-    line-height: 1.8;
-    margin-bottom: 25px;
-    font-family: sans-serif;
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  font-family: sans-serif;
 }
-.about button{
-    width: 250px;
-    padding: 10px 20px;
-    margin-top: 20px;
-    background-color: transparent;
-    border-radius: 5px;
-    border: 1px solid white;
-    color: white;
-    font-family: sans-serif;
-    font-size: 0.9rem;
-    font-weight: 600;
-    cursor: pointer;
+.about button {
+  width: 250px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
 }
-.justify{
-    height: 55vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+.justify {
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.justify h2{
-    font-size: 1.8rem;
-    margin-top: 30px;
-    margin-bottom: 25px;
-    font-family: sans-serif;
-    font-weight: lighter;
+.justify h2 {
+  font-size: 1.8rem;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
-.justify-container{
-    display: flex;
+.justify-container {
+  display: flex;
 }
-.info-container{
-    height: 85vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+.info-container {
+  height: 85vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/text.jpg");
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.info-container p{
-    width: 50%;
-    font-family: sans-serif;
-    font-size: 1.2rem;
-    line-height: 2.5;
-    color: white;    
+.info-container p {
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  line-height: 2.5;
+  color: white;
 }
-.services-container{
-    height: 40vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+.services-container {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.services-container h2{
-    font-size: 1.8rem;
-    font-family: sans-serif;
-    font-weight: lighter;
-    color: rgb(43, 43, 43);
+.services-container h2 {
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: rgb(43, 43, 43);
 }
-.services-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.services-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.personal-container{
-    background: linear-gradient(rgba(20, 50, 92, 0.92), rgba(20, 50, 92, 0.92)), 
+.personal-container {
+  background: linear-gradient(rgba(20, 50, 92, 0.92), rgba(20, 50, 92, 0.92)),
     url("/showcase.jpg");
-    background-position: center;
-    /* background-color: #233F66; */
-    height: 90vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  background-position: center;
+  /* background-color: #233F66; */
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.personal-info{
-    width: 45%;
+.personal-info {
+  width: 45%;
 }
-.personal-info h1{
-    font-family: sans-serif;
-    font-size: 2.8rem;
-    color: white;
+.personal-info h1 {
+  font-family: sans-serif;
+  font-size: 2.8rem;
+  color: white;
 }
-.personal-info .subtitle{
-    font-family: sans-serif;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: white;
+.personal-info .subtitle {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
 }
-.personal-info p{
-    font-family: sans-serif;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    line-height: 2;
-    color: white;
-    text-align: justify;
+.personal-info p {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  line-height: 2;
+  color: white;
+  text-align: justify;
 }
-.personal-photo{
-    margin-top: -50px;
-    width: 350px;
-    height: 350px;
-    background-color: white;
+.personal-photo {
+  margin-top: -50px;
+  width: 350px;
+  height: 350px;
+  background-color: white;
 }
-.personal-photo img{
-    width: 100%;
-    object-fit: cover;
+.personal-photo img {
+  width: 100%;
+  object-fit: cover;
 }
-.question-container{
-    background-color: #0A088E;
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.question-container {
+  background-color: #0a088e;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.question{
-    margin: 30px;
-    font-size: 2rem;
-    font-family: sans-serif;
-    color: white;
+.question {
+  margin: 30px;
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: white;
 }
-.question-container button{
-    width: 180px;
-    height: 50px;
-    font-size: 0.9rem;
-    font-weight: bold;
+.question-container button {
+  width: 180px;
+  height: 50px;
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 /* MOBILE VERSION */
 @media only screen and (max-width: 900px) {
-    .about-container{
-        height: 40vh;
-    }
-    .about{
-        width: 90%;
-        text-align: justify;
-    }
-    .about h1{
-        font-size: 2rem;
-    }
-    .about p{
-        font-size: 1rem;
-        line-height: 1.5;
-    }
-    .about button{
-        width: 350px;
-        margin-top: 30px;
-        font-size: 1rem;
-    }
-    .justify{
-        height: auto;
-    }
-    .justify h2{
-        font-size: 1.2rem;
-    }
-    .justify-container{
-        display: block;
-    }
-    .info-container{
-        height: 75vh;
-    }
-    .info-container p{
-        width: 90%;
-        font-size: 1rem;
-        line-height: 2.0; 
-    }
-    .services-container{
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .services-container h2{
-        margin-top: 40px;
-        font-size: 1.5rem;
-    }
-    .services-list{
-        display: flex;
-        flex-direction: column;
-    }
-    .personal-container{
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .personal-info{
-        width: 90%;
-        margin-top: 40px;
-    }
-    .personal-info h1{
-        font-size: 2.5rem;
-    }
-    .personal-info .subtitle{
-        font-size: 0.9rem;
-    }
-    .personal-info p{
-        font-size: 0.9rem;
-    }
-    .personal-photo{
-        margin-top: 30px;
-        margin-bottom: 50px;
-        width: 300px;
-        height: 300px;
-    }
-    .question-container{
-        height: 20vh;
-    }
-    .question{
-        font-size: 1.2rem;
-    }
-    .question-container button{
-        width: 150px;
-        font-size: 0.8rem;
-    }
+  .about-container {
+    height: auto;
   }
+  .about {
+    width: 90%;
+    text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .about h1 {
+    font-size: 2rem;
+  }
+  .about p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .about button {
+    width: 350px;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  .justify {
+    height: auto;
+  }
+  .justify h2 {
+    font-size: 1.2rem;
+  }
+  .justify-container {
+    display: block;
+  }
+  .info-container {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .info-container p {
+    width: 90%;
+    font-size: 1rem;
+    line-height: 2;
+  }
+  .services-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .services-container h2 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+  }
+  .services-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .personal-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .personal-info {
+    width: 90%;
+    margin-top: 40px;
+  }
+  .personal-info h1 {
+    font-size: 2.5rem;
+  }
+  .personal-info .subtitle {
+    font-size: 0.9rem;
+  }
+  .personal-info p {
+    font-size: 0.9rem;
+  }
+  .personal-photo {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 300px;
+  }
+  .question-container {
+    height: auto;
+    padding: 10px 0px 30px 0px;
+  }
+  .question {
+    width: 100%;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  .question-container button {
+    width: 150px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+}
