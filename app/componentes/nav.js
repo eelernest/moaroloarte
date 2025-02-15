@@ -12,9 +12,9 @@ export default function Navbar(){
                     <li>
                         <Link className="link" href="/">Nuestros Servicios</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link className="link" href="/">Login</Link>
-                    </li>
+                    </li> */}
                     
                 </ul>
             </div>

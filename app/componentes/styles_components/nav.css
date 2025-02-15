@@ -26,3 +26,16 @@ nav{
    font-family: sans-serif;
    font-weight: 400; 
 }
+
+/* MOBILE VERSION */
+@media only screen and (max-width: 600px) {
+    nav{
+        height: 150px;
+    }
+    .logo{
+        width: 180px;
+    }
+    .nav-options li{
+        font-size: 0.8rem;
+    }
+  }

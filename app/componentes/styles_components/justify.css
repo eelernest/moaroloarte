@@ -28,3 +28,9 @@
     line-height: 1.8;
     color: rgb(59, 59, 59);
 }
+/* MOBILE VERSION */
+@media only screen and (max-width: 800px) {
+    .justify_style{
+        margin-top: 40px;
+    }
+  }

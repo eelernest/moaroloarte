@@ -154,3 +154,94 @@
     font-size: 0.9rem;
     font-weight: bold;
 }
+
+/* MOBILE VERSION */
+@media only screen and (max-width: 900px) {
+    .about-container{
+        height: 40vh;
+    }
+    .about{
+        width: 90%;
+        text-align: justify;
+    }
+    .about h1{
+        font-size: 2rem;
+    }
+    .about p{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .about button{
+        width: 350px;
+        margin-top: 30px;
+        font-size: 1rem;
+    }
+    .justify{
+        height: auto;
+    }
+    .justify h2{
+        font-size: 1.2rem;
+    }
+    .justify-container{
+        display: block;
+    }
+    .info-container{
+        height: 75vh;
+    }
+    .info-container p{
+        width: 90%;
+        font-size: 1rem;
+        line-height: 2.0; 
+    }
+    .services-container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .services-container h2{
+        margin-top: 40px;
+        font-size: 1.5rem;
+    }
+    .services-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .personal-container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .personal-info{
+        width: 90%;
+        margin-top: 40px;
+    }
+    .personal-info h1{
+        font-size: 2.5rem;
+    }
+    .personal-info .subtitle{
+        font-size: 0.9rem;
+    }
+    .personal-info p{
+        font-size: 0.9rem;
+    }
+    .personal-photo{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: 300px;
+        height: 300px;
+    }
+    .question-container{
+        height: 20vh;
+    }
+    .question{
+        font-size: 1.2rem;
+    }
+    .question-container button{
+        width: 150px;
+        font-size: 0.8rem;
+    }
+  }

@@ -23,3 +23,16 @@ footer{
     width: 100%;
     object-fit: cover;
 }
+/* MOBILE VERSION */
+@media only screen and (max-width: 900px){
+    footer{
+        height: 8vh;
+        margin-left: 80px;
+    }
+    .copyrigth{
+        font-size: 1rem;
+    }
+    .social-ico{
+        margin-top: 20px;
+    }
+}
