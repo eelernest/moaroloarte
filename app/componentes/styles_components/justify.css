@@ -1,0 +1,30 @@
+.justify_style{
+    width: 320px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.justify-ico{
+    width: 100px;
+    height: 100px;
+}
+.justify-ico img{
+    width: 100%;
+    object-fit: cover;
+}
+.justify .title{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(44, 44, 44);
+}
+.justify .parrafo{
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    line-height: 1.8;
+    color: rgb(59, 59, 59);
+}

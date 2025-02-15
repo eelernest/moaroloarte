@@ -1,0 +1,25 @@
+footer{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+.copyrigth{
+    font-size: 1.2rem;
+}
+.social-media{
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-ico{
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.social-ico img{
+    width: 100%;
+    object-fit: cover;
+}
