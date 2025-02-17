@@ -1,0 +1,56 @@
+.forms_section-container{
+    height: 790px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service-text{
+    width: 530px;
+    height: 212px;
+}
+.service-text h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.service-text p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 1.5;
+    text-align: justify;
+    color: white;
+}
+.forms-container{
+    width: 580px;
+    height: 600px;
+}
+.asesoria-bg{
+    background: linear-gradient(rgba(22, 30, 42, 0.86), rgba(22, 30, 42, 0.86)),
+    url("/asesoria_forms.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+.auditoria-bg{
+    background: linear-gradient(rgba(22, 30, 42, 0.86), rgba(22, 30, 42, 0.86)),
+    url("/auditoria_forms.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.procesos-bg{
+    background: linear-gradient(rgba(22, 30, 42, 0.86), rgba(22, 30, 42, 0.86)),
+    url("/auditoria_forms.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fiscal-bg{
+    background: linear-gradient(rgba(22, 30, 42, 0.86), rgba(22, 30, 42, 0.86)),
+    url("/auditoria_forms.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
