@@ -72,16 +72,29 @@ export default function Home() {
       <div className="services-container">
         <h2>NUESTROS SERVICIOS</h2>
         <div className="services-list">
-          <Services
-            icon="./circle-1.png"
-            service_name="Asesoría financiera y contable"
-          />
-          <Services icon="./circle-2.png" service_name="Auditoría" />
-          <Services icon="./circle-3.png" service_name="Fiscal" />
-          <Services
-            icon="./circle-4.png"
-            service_name="Subcontratación de procesos de negocios"
-          />
+
+          <Link className="link" href={"/asesoria"}>
+            <Services
+              icon="./circle-1.png"
+              service_name="Asesoría financiera y contable"
+            />
+          </Link>
+
+          <Link className="link" href={"/auditoria"}>
+            <Services icon="./circle-2.png" service_name="Auditoría" />
+          </Link>
+
+          <Link className="link" href={"/fiscal"}>
+            <Services icon="./circle-3.png" service_name="Fiscal" />
+          </Link>
+          
+          <Link className="link" href={"/procesos"}>
+            <Services
+              icon="./circle-4.png"
+              service_name="Subcontratación de procesos de negocios"
+            />
+          </Link>
+
         </div>
       </div>
       <div className="personal-container">
