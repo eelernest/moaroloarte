@@ -1,0 +1,25 @@
+.more-info-container{
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(RGBA(22, 30, 42, 0.86),RGBA(22, 30, 42, 0.86)),
+    url('/asesoria_forms.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.more-info-container h2{
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+.more-info-container p{
+    width: 50%;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 1.5;
+}

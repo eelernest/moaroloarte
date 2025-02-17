@@ -5,6 +5,7 @@ import './asesoria.css'
 import Forms_section from "../componentes/forms_section"
 import Services_details from '../componentes/services_details'
 import Items from '../componentes/auxiliar/item_list'
+import More_info from '../componentes/more_info'
 
 export default function Asesoria() {
     return (
@@ -28,6 +29,10 @@ export default function Asesoria() {
             list8={<Items item={"Asesoría contable relacionada con instrumentos financieros derivados."} />}
             />
 
+            <More_info
+            title={"Preparados para el presente y futuro"}
+            description={"Nuestro equipo provee estrategias y servicios a cada cliente en cada fase del ciclo económico de sus negocios. Contamos con amplio desarrollo de estrategias financieras que ayudan a agregar valor a los accionistas."}
+            />
         </div>
     )
 }

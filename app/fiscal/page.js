@@ -6,6 +6,7 @@ import Forms_section from "../componentes/forms_section"
 import Services_details from '../componentes/services_details'
 import Items from '../componentes/auxiliar/item_list'
 import Sub_list from '../componentes/auxiliar/sub_list'
+import More_info from '../componentes/more_info'
 
 export default function Fiscal() {
     return (
@@ -34,6 +35,10 @@ export default function Fiscal() {
                     item3={<Items item={"Conciliación y validación de CFDI´s emitidos por proveedores y comparación vs declaraciones   y contabilidad electrónica"} />}
                     item4={<Items item={"Conciliación y validación de CFDI´s emitidos por proveedores y comparación vs listas negras"} />}
                 />}
+            />
+            <More_info
+                title={"Validación para dar certezaPreparados para el presente y futuro"}
+                description={"Mas Info"}
             />
         </div>
     )

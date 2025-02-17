@@ -5,6 +5,7 @@ import './auditoria.css'
 import Forms_section from "../componentes/forms_section"
 import Services_details from '../componentes/services_details'
 import Items from '../componentes/auxiliar/item_list'
+import More_info from '../componentes/more_info'
 
 export default function Auditoria() {
     return (
@@ -26,6 +27,10 @@ export default function Auditoria() {
                 list6={<Items item={"Informes sobre trabajos para compilar información financiera."} />}
                 list7={<Items item={"Informe del comisario sobre estados financieros auditados."} />}
                 list8={<Items item={"Informe sobre la situación fiscal del contribuyente (SIPRED)"} />}
+            />
+            <More_info
+                title={"Validación para dar certezaPreparados para el presente y futuro"}
+                description={"Mas Info"}
             />
 
         </div>
