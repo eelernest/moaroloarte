@@ -15,7 +15,7 @@ export default function Procesos() {
                 frame={<iframe width="100%" height="100%" src="https://forms.office.com/Pages/ResponsePage.aspx?id=8bAQ5LbKZEuf_ndrdMEtjNbErItQrkRGj28nyVVghtlUOUVCNDJUVEJaVUxJNEk2WkE1MDE3VUJSRC4u&embed=true"> </iframe>}
             />
             <More_info
-                title={"Validación para dar certezaPreparados para el presente y futuro"}
+                title={"Validación para dar certeza"}
                 description={"Mas Info"}
             />
         </div>

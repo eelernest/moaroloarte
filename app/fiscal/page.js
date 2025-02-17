@@ -37,7 +37,7 @@ export default function Fiscal() {
                 />}
             />
             <More_info
-                title={"Validación para dar certezaPreparados para el presente y futuro"}
+                title={"Validación para dar certeza"}
                 description={"Mas Info"}
             />
         </div>

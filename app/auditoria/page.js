@@ -29,7 +29,7 @@ export default function Auditoria() {
                 list8={<Items item={"Informe sobre la situación fiscal del contribuyente (SIPRED)"} />}
             />
             <More_info
-                title={"Validación para dar certezaPreparados para el presente y futuro"}
+                title={"Validación para dar certeza"}
                 description={"Mas Info"}
             />
 
