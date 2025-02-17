@@ -28,3 +28,28 @@
 .description{
     font-size: 1.1rem;
 }
+
+@media only screen and (max-width:900px){
+    .details-container{
+        flex-direction: column;
+    }
+    .img-details-container{
+        width: 90%;
+        height: auto;
+    }
+    .details-description{
+        width: 80%;
+    }
+    .details-description img{
+        margin-top: 30px;
+    }
+    .details-description h2{
+        text-align: center;
+        margin-top: -50px;
+        margin-bottom: 30px;
+    }
+    .description{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}
