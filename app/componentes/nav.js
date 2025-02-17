@@ -5,12 +5,12 @@ export default function Navbar(){
     return(
         <nav>
             <div className="nav-logo">
-                <img className="logo" src="/logo.jpg"/>
+                <Link className="link" href={"/"}><img className="logo" src="/logo.jpg"/></Link>
             </div>
             <div className="nav-menu">
                 <ul className="nav-options">
                     <li>
-                        <Link className="link" href="/">Nuestros Servicios</Link>
+                        <Link className="link" href="/store">Nuestros Servicios</Link>
                     </li>
                     {/* <li>
                         <Link className="link" href="/">Login</Link>

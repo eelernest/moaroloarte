@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import Justify from "./componentes/justify";
 import Services from "./componentes/services";
 
@@ -20,7 +21,7 @@ export default function Home() {
             trayectoria en firmas internacionales, así como en el sector
             privado.
           </p>
-          <button>Conoce nestros Servicios</button>
+          <Link className="link" href="/store"><button>Conoce nestros Servicios</button></Link>
         </div>
       </div>
       <div className="justify">
